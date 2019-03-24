@@ -56,7 +56,6 @@ if __name__ == '__main__':
             while True:
                 answer = input('\r')
                 break
-            sys.stdout.write('CURSOR_UP_ONE')
             print('\r\rAntwort:\n{}\n'.format(data[subjects[random_choice[0]]][random_choice[1]]['answer']))
 
             while True:
@@ -140,7 +139,6 @@ if __name__ == '__main__':
                     control[random_choice[0]][random_choice[1]]['counter'] = 1
                     control[random_choice[0]][random_choice[1]]['date'] = datetime.datetime.now().isoformat()
 
-                print(control)
             else:
                 print('Falsch', data[subjects[random_choice[0]]][random_choice[1]]['answer']['correct'])
 

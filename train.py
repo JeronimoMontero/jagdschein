@@ -5,6 +5,39 @@ import random
 import datetime
 import pprint as pp
 
+
+def update_control(control, count, random_choice):
+    cat = random_choice[0] + 1
+    index = random_choice[1]
+    if control.get(cat, None):
+
+        if control[cat].get(str(index)):
+            control[cat][index]['counter'] += count
+            control[cat][index]['date'] = datetime.datetime.now().isoformat()
+        else:
+            control[cat][index] = dict()
+            control[cat][index]['counter'] = 0
+            control[cat][index]['date'] = datetime.datetime.now().isoformat()
+
+    else:
+        control[cat] = dict()
+        control[cat][index]= dict()
+        control[cat][index]['counter'] = count
+        control[cat][index]['date'] = datetime.datetime.now().isoformat()
+
+    return control
+
+
+def check_finishing(control):
+    with open(os.path.join('data', '{}.json'.format(directory)), 'w') as file:
+        json.dump(control, file)
+    while True:
+        close = input('Soll das Training beendet werden (j/n)?')
+        if close in ['j', 'n']:
+            break
+    return close
+
+
 if __name__ == '__main__':
     path = os.path.join('data', 'Jagdschein MV')
     user = input('enter your name:')
@@ -63,48 +96,16 @@ if __name__ == '__main__':
                 if answer in ['r', 'f', 'e']:
                     break
 
-                if answer == 'r':
-                    if control.get(random_choice[0]):
-                        if control[random_choice[0]].get(random_choice[1]):
-                            control[random_choice[0]][random_choice[1]]['counter'] += 1
-                            control[random_choice[0]][random_choice[1]]['date'] = datetime.datetime.now().isoformat()
-                        else:
-                            control[random_choice[0]] = dict()
-                            control[random_choice[0]][random_choice[1]] = dict()
-                            control[random_choice[0]][random_choice[1]]['counter'] = 0
-                            control[random_choice[0]][random_choice[1]]['date'] = datetime.datetime.now().isoformat()
+            if answer == 'r':
+                control = update_control(control, 1, random_choice)
+            elif answer == 'f':
+                control = update_control(control, 0, random_choice)
 
-                    else:
-                        control[random_choice[0]] = dict()
-                        control[random_choice[0]][random_choice[1]] = dict()
-                        control[random_choice[0]][random_choice[1]]['counter'] = 1
-                        control[random_choice[0]][random_choice[1]]['date'] = datetime.datetime.now().isoformat()
-
-                elif answer == 'f':
-                    if control.get(random_choice[0]):
-                        if control[random_choice[0]].get(random_choice[1]):
-                            control[random_choice[0]][random_choice[1]]['counter'] = 0
-                            control[random_choice[0]][random_choice[1]]['date'] = datetime.datetime.now().isoformat()
-                        else:
-                            control[random_choice[0]] = dict()
-                            control[random_choice[0]][random_choice[1]] = dict()
-                            control[random_choice[0]][random_choice[1]]['counter'] = 0
-                            control[random_choice[0]][random_choice[1]]['date'] = datetime.datetime.now().isoformat()
-
-                    else:
-                        control[random_choice[0]] = dict()
-                        control[random_choice[0]][random_choice[1]] = dict()
-                        control[random_choice[0]][random_choice[1]]['counter'] = 0
-                        control[random_choice[0]][random_choice[1]]['date'] = datetime.datetime.now().isoformat()
-
-            if answer == 'e':
-                while True:
-                    close = input('Soll das Training beendet werden (j/n)?')
-                    if close in ['j', 'n']:
-                        break
+            if answer is 'e':
+                close = check_finishing(control)
                 if close == 'j':
                     break
-        # multiple
+
         elif data[subjects[random_choice[0]]][random_choice[1]]['type'] == 'multiple_choice':
             print('\nFrage {}-{}:\n{}\n'.format(random_choice[0]+1, random_choice[1], data[subjects[random_choice[0]]][random_choice[1]]['question']))
             for n, c in enumerate(data[subjects[random_choice[0]]][random_choice[1]]['answer']['choice']):
@@ -114,49 +115,18 @@ if __name__ == '__main__':
                 if answer in ['e'] or answer.isdigit():
                     break
             if answer is 'e':
-                while True:
-                    close = input('Soll das Training beendet werden (j/n)?')
-                    if close in ['j', 'n']:
-                        break
+                close = check_finishing(control)
                 if close == 'j':
                     break
 
             elif int(answer) - 1 in data[subjects[random_choice[0]]][random_choice[1]]['answer']['correct']:
                 print('Richtig')
-                if control.get(random_choice[0]):
-                    if control[random_choice[0]].get(random_choice[1]):
-                        control[random_choice[0]][random_choice[1]]['counter'] += 1
-                        control[random_choice[0]][random_choice[1]]['date'] = datetime.datetime.now().isoformat()
-                    else:
-                        control[random_choice[0]] = dict()
-                        control[random_choice[0]][random_choice[1]] = dict()
-                        control[random_choice[0]][random_choice[1]]['counter'] = 0
-                        control[random_choice[0]][random_choice[1]]['date'] = datetime.datetime.now().isoformat()
-
-                else:
-                    control[random_choice[0]] = dict()
-                    control[random_choice[0]][random_choice[1]] = dict()
-                    control[random_choice[0]][random_choice[1]]['counter'] = 1
-                    control[random_choice[0]][random_choice[1]]['date'] = datetime.datetime.now().isoformat()
+                control = update_control(control, 1, random_choice)
 
             else:
-                print('Falsch', data[subjects[random_choice[0]]][random_choice[1]]['answer']['correct'])
+                print('Falsch', [x + 1 for x in data[subjects[random_choice[0]]][random_choice[1]]['answer']['correct']])
 
-                if control.get(random_choice[0]):
-                    if control[random_choice[0]].get(random_choice[1]):
-                        control[random_choice[0]][random_choice[1]]['counter'] = 0
-                        control[random_choice[0]][random_choice[1]]['date'] = datetime.datetime.now().isoformat()
-                    else:
-                        control[random_choice[0]] = dict()
-                        control[random_choice[0]][random_choice[1]] = dict()
-                        control[random_choice[0]][random_choice[1]]['counter'] = 0
-                        control[random_choice[0]][random_choice[1]]['date'] = datetime.datetime.now().isoformat()
-
-                else:
-                    control[random_choice[0]] = dict()
-                    control[random_choice[0]][random_choice[1]] = dict()
-                    control[random_choice[0]][random_choice[1]]['counter'] = 0
-                    control[random_choice[0]][random_choice[1]]['date'] = datetime.datetime.now().isoformat()
+                control = update_control(control, 0, random_choice)
 
     with open(os.path.join('data', '{}.json'.format(directory)), 'w') as file:
         json.dump(control, file)

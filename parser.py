@@ -30,7 +30,7 @@ if __name__ == '__main__':
                     raw = list(filter(None, re.split('\n', content_list[index - 1], flags=re.DOTALL)))
                     data_parsed[topic][index] = {}
                     data_parsed[topic][index]['question'] = raw[0].replace('\n', '').replace('\t', '').strip()
-                    if ' x ' in ''.join(raw[1:]):
+                    if ' x' in ''.join(raw[1:]).lower():
                         content = list(filter(None, re.split('[abc]\)', ''.join(raw[1:]), flags=re.DOTALL)))[1:]
                         data_parsed[topic][index]['type'] = 'multiple_choice'
                         data_parsed[topic][index]['answer'] = {}
@@ -38,8 +38,8 @@ if __name__ == '__main__':
                         data_parsed[topic][index]['answer']['choice'] = []  # possible answers
 
                         for number, answer in enumerate(content):
-                            if answer.strip()[-1] == 'x':
-                                answer = answer.replace(' x', '')
+                            if answer.strip()[-1] in ['x', 'X']:
+                                answer = answer.replace(' x', '').replace(' X', '')
                                 data_parsed[topic][index]['answer']['correct'].append(number)
                             data_parsed[topic][index]['answer']['choice'].append(answer.strip())
                     else:

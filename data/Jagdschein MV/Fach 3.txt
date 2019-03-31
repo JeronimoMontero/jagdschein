@@ -58,8 +58,8 @@ Fach 3: Waffenrecht; Waffentechnik; Handhabung, Führung und Aufbewahrung von Ja
 23. 	Darf die Behörde den Waffenbesitz und die Waffenaufbewahrung kontrollieren? 
 	Ja, sie darf unangemeldete Kontrollen durchführen. 
 	
-24. 	Wie müssen Waffen verwahrt werden? Im A – Schrank: bis 10 Langwaffen, im B – Schrank: Lang- und Kurzwaffen, Waffen und Munition 
-	sind hier getrennt zu lagern; im Schrank der Klasse 0: uneingeschränkte Verwahrung. 
+24. 	Wie müssen Waffen verwahrt werden? 
+	Im A – Schrank: bis 10 Langwaffen, im B – Schrank: Lang- und Kurzwaffen, Waffen und Munition sind hier getrennt zu lagern; im Schrank der Klasse 0: uneingeschränkte Verwahrung. 
 25. 	Nennen Sie Gegenstände, die nach dem Waffengesetz verboten sind. 
 	Kriegswaffen und deren Anscheinswaffen, Vorderschaftrepetierer ohne Hinterschaft, Stockflinten, 
 	Nachtzielgeräte. 
@@ -108,8 +108,7 @@ Fach 3: Waffenrecht; Waffentechnik; Handhabung, Führung und Aufbewahrung von Ja
 44. 	Welches ist der oberste Grundsatz beim Umgang mit Waffen? 
 	Sicherheit! Waffen immer so behandeln, als ob sie geladen wären! Niemals Waffen in Richtung von 
 	Menschen, Hunden oder Gegenständen etc. richten! 
-45. 	Wodurch wird das Überschlagen des Geschosses beim Kugelschuss während des Fluges 
-	verhindert? 
+45. 	Wodurch wird das Überschlagen des Geschosses beim Kugelschuss während des Fluges verhindert? 
 	Durch die wendelförmige Drehung des Lauf-Innenprofils mit Erhebungen (Felder) und Vertiefungen 
 	(Züge) bekommt das Geschoss den sogenannten Drall. 
 46. 	Was versteht man unter Dralllänge? 
@@ -128,8 +127,7 @@ Fach 3: Waffenrecht; Waffentechnik; Handhabung, Führung und Aufbewahrung von Ja
 	Damit das Wild auch auf unterschiedlichen Entfernungen wirkungsvoll beschossen werden kann. 
 51. 	Können auch Einzelgeschosse aus Flinten verschossen werden? 
 	Ja, sogenannte Flintenlaufgeschosse (FLG) für den Schuss auf Schalenwild. 
-52. 	Nennen Sie die maximale weidgerechte Schussentfernung für den Schuss mit 
-	Flintenlaufgeschossen. Aus welchem Grund unterlässt man den weiteren Schuss? 
+52. 	Nennen Sie die maximale weidgerechte Schussentfernung für den Schuss mit Flintenlaufgeschossen. Aus welchem Grund unterlässt man den weiteren Schuss? 
 	maximal 40 Meter. Da eine Flinte meist keinen gezogenen Lauf hat, nimmt die Treffergenauigkeit ab. 
 53. 	Wodurch unterscheidet sich die Doppelflinte von der Bockflinte ihrer Bauart nach? 
 	Doppelflinte: zwei nebeneinander liegende Schrotläufe, 
@@ -179,10 +177,8 @@ Fach 3: Waffenrecht; Waffentechnik; Handhabung, Führung und Aufbewahrung von Ja
 75. 	Nennen Sie unterschiedliche Verschlussarten bei Kipplaufwaffen? 
 	Laufhakenverschluss, Greener-, Doppelgreener-, Purdey-, Flanken,- Keilverschluss. 
 	
-76. 	Welche gesetzliche Einschränkung gibt es bezüglich der Anzahl der Patronen bei 
-	halbautomatischen Langwaffen? 
-	Die Waffe darf nicht mit insgesamt mehr als 3 Patronen geladen sein (eine Patrone im Lauf und zwei 
-	im Magazin). 
+76. 	Welche gesetzliche Einschränkung gibt es bezüglich der Anzahl der Patronen bei halbautomatischen Langwaffen? 
+	Die Waffe darf nicht mit insgesamt mehr als 3 Patronen geladen sein (eine Patrone im Lauf und zwei im Magazin). 
 77. 	Was ist ein Ejektor? 
 	Ein Patronenauswerfer, der mit Federkraft beim Abknicken der Läufe die abgeschossenen 
 	Patronenhülsen auswirft (schnelleres Nachladen möglich). 
@@ -245,17 +241,15 @@ Fach 3: Waffenrecht; Waffentechnik; Handhabung, Führung und Aufbewahrung von Ja
 	RWS = Hersteller (z.B. auch HP, S&B, Norma, etc. möglich). 
 101. 	Was bedeutet die Angabe 8 x 57 IRS auf dem Hülsenboden? 
 	8 mm Geschossdurchmesser, 57 mm Hülsenlänge I = Infanterie, R = Rand, S = „stark“. 
-102. 	Was ist bei Verwendung von „S“- Kalibern in Bezug auf die Sicherheit unbedingt zu beachten 
-	(z.B. 8 x 57 IS)? 
-	Der Geschossdurchmesser ist um 0,1 mm stärker, also ca. 8,1 mm. Die Patronen dürfen nur aus den 
-	entsprechend gekennzeichneten Waffen verschossen werden! 
+102. 	Was ist bei Verwendung von „S“- Kalibern in Bezug auf die Sicherheit unbedingt zu beachten (z.B. 8 x 57 IS)? 
+	Der Geschossdurchmesser ist um 0,1 mm stärker, also ca. 8,1 mm. Die Patronen dürfen nur aus den entsprechend gekennzeichneten Waffen verschossen werden! 
 103. 	Wie sind „S“- Kaliber - Patronen deutscher Hersteller gekennzeichnet? 
 	Mit einem schwarz (oder rot) gefärbten Zündhütchen, einem „S“ auf dem Hülsenboden, einer 
 	Rändelung am Geschoss und einer entsprechenden Angabe auf der Verpackung. 
 104. 	Was bedeutet die Angabe .30-06 auf dem Hülsenboden? 
-	.30 ist eine Zollangabe (0,30 Zoll); Umrechnungsfaktor = 25,4 mm (also 0,30 Zoll x 25,4 = 7,62 mm 
+	.30 ist eine Zollangabe (0,30 Zoll); Umrechnungsfaktor = 25,4 mm (also 0,30 Zoll X 25,4 = 7,62 mm 
 	Geschossdurchmesser), 06 ist das Konstruktionsjahr 1906, die Hülsenlänge wird nicht angegeben. 
-105. 	Nennen Sie einige Büchsengeschosse? 
+105. 	Nennen Sie einige Büchsengeschosse!
 	H-Mantelgeschosse, Kegelspitzgeschosse, TIG & TUG, Vollmantelgeschosse, sowie Teilmantel- 
 	Rundkopfgeschosse und Teilmantel-Spitzgeschosse, bleifreie Geschosse. 
 106. 	Welche Büchsenläufe bezeichnet man als S-Läufe? 
@@ -398,8 +392,7 @@ Fach 3: Waffenrecht; Waffentechnik; Handhabung, Führung und Aufbewahrung von Ja
 	a) Bei der Gemeinde 
 	b) Beim Landratsamt / Verwaltung der kreisfreien Stadt x 
 	c) Beim Kreisforstamt / Stadtforstamt 
-159. 	Innerhalb welcher Frist muss die von einem Jagdscheininhaber geliehene 
-	Langwaffe dem Eigentümer zurückgegeben werden? 
+159. 	Innerhalb welcher Frist muss die von einem Jagdscheininhaber geliehene Langwaffe dem Eigentümer zurückgegeben werden? 
 	a) Innerhalb von zwei Wochen 
 	b) Innerhalb von einem Monat x 
 	c) Innerhalb von zwei Monaten 
@@ -435,8 +428,7 @@ Fach 3: Waffenrecht; Waffentechnik; Handhabung, Führung und Aufbewahrung von Ja
 	a) In seinem Büro im Industriegebiet 
 	b) In der Wohnung, in der er ständig wohnt x 
 	c) In seiner PKW-Garage abseits der Wohnung 
-167. 	Welche Voraussetzungen muss ein Jungjäger vor dem Kauf einer Waffe 
-	bezüglich der Waffenaufbewahrung schaffen? 
+167. 	Welche Voraussetzungen muss ein Jungjäger vor dem Kauf einer Waffe bezüglich der Waffenaufbewahrung schaffen? 
 	a) Er muss sich einen Jagdhund kaufen 
 	b) Ein Waffenschrank muss vorhanden sein x 
 	c) Er muss ein Jagdrevier pachten 
@@ -560,7 +552,7 @@ Fach 3: Waffenrecht; Waffentechnik; Handhabung, Führung und Aufbewahrung von Ja
 195. 	Was sind blanke Waffen? 
 	a) Nicht brünierte Allwetterwaffen aus rostfreiem Stahl 
 	b) Büchsen ohne Kimme und Korn, die nur mit Zielfernrohr ausgerüstet sind 
-	c) Hieb und Stichwaffen, die der Jäger überwiegend zum Abfangen von Wild nutzt x 
+	c) Hieb- und Stichwaffen, die der Jäger überwiegend zum Abfangen von Wild nutzt x 
 196. 	Wozu verwendet man eine Saufeder? 
 	a) Zum Abfangen von Schwarzwild, das von Hunden gestellt wird, 
 	weil ein Fangschuss mit der Feuerwaffe die Hunde verletzen oder töten würde x 
@@ -623,8 +615,7 @@ Fach 3: Waffenrecht; Waffentechnik; Handhabung, Führung und Aufbewahrung von Ja
 	a) Um sicher zu stellen, dass die Munition gut abgelagert ist 
 	b) Um gleichbleibende Ergebnisse aus der Waffe zu erzielen x 
 	c) Um Rabatte in Anspruch nehmen zu können 
-211. 	Warum ist es nicht sinnvoll, dass sich Jäger Büchsenmunition im selben Kaliber 
-	gegenseitig ausleihen? 
+211. 	Warum ist es nicht sinnvoll, dass sich Jäger Büchsenmunition im selben Kaliber gegenseitig ausleihen? 
 	a) Weil das Geschossgewicht und die Trefferlage unterschiedlich sein können x 
 	b) Weil die Hülsenlänge unterschiedlich sein kann 
 	c) Weil der Geschosstyp ein anderer sein kann 
@@ -671,8 +662,7 @@ Fach 3: Waffenrecht; Waffentechnik; Handhabung, Führung und Aufbewahrung von Ja
 	a) An der Mündung des Laufes 
 	b) Auf dem Patronenlager oder Laufansatz x 
 	c) Am Lauf zwischen Kimme und Korn 
-223. 	Muss jede Waffe die in Deutschland legal erworben wird zuvor in einem 
-	Beschussamt beschossen worden sein? 
+223. 	Muss jede Waffe die in Deutschland legal erworben wird zuvor in einem Beschussamt beschossen worden sein? 
 	a) Ja, ein Einzelbeschuss ist vorgeschrieben x 
 	b) Nein, es ist kein Beschuss notwendig 
 	c) Ein Serienbeschuss reicht aus 
@@ -690,8 +680,7 @@ Fach 3: Waffenrecht; Waffentechnik; Handhabung, Führung und Aufbewahrung von Ja
 	a) Die Läufe müssen mindestens 80 cm lang sein 
 	b) Die Flinte muss mindestens 3,2 kg wiegen 
 	c) Die Schäftung muss dem Schützen angepasst sein x 
-227. 	Welche Maße kann der Büchsenmacher an einem Flintenschaft für das 
-	treffsichere Schießen verändern? 
+227. 	Welche Maße kann der Büchsenmacher an einem Flintenschaft für das treffsichere Schießen verändern? 
 	a) Schaftlänge, Senkung, Schränkung, Pitch x 
 	b) Schaftlänge, Beugung, Verschiebung, Pitch 
 	c) Schaftkürze, Krümmung, Schränkung, Pitch 
@@ -711,8 +700,7 @@ Fach 3: Waffenrecht; Waffentechnik; Handhabung, Führung und Aufbewahrung von Ja
 	a) Beim Öffnen der Waffe x 
 	b) Beim Laden der Waffe 
 	c) Beim Schließen der Waffe 
-232. 	Wann spannt sich das Schloss einer Repetierbüchse mit Kammer- oder 
-	Zylinderverschluss (ausgenommen bei Waffen mit Handspannschlossen)? 
+232. 	Wann spannt sich das Schloss einer Repetierbüchse mit Kammer- oder Zylinderverschluss (ausgenommen bei Waffen mit Handspannschlossen)? 
 	a) Beim Öffnen und Schließen der Waffe x 
 	b) Beim Laden der Waffe 
 	c) Nur beim Schließen der Waffe 
@@ -780,7 +768,7 @@ Fach 3: Waffenrecht; Waffentechnik; Handhabung, Führung und Aufbewahrung von Ja
 	c) Pistole, Revolver x 
 247. 	Für welchen Einsatz verwendet man Kurzwaffen im Jagdbetrieb? 
 	a) Zur Tötung des altersschwachen Jagdhundes 
-	b) Zur Bau- und Fallenjagd, sowie für den Fangschuss auf Wild x 
+	b) Zur Bau- und Fallenjagd sowie für den Fangschuss auf Wild x 
 	c) Zur Schalenwildbejagung vom Ansitz und zur Drückjagd 
 248. 	Welche Kurzwaffe hat gewöhnlich einen Schlitten? 
 	a) Der Revolver 
@@ -805,8 +793,7 @@ Fach 3: Waffenrecht; Waffentechnik; Handhabung, Führung und Aufbewahrung von Ja
 	a) Neue Waffe kaufen 
 	b) Magazin entnehmen und Verschluss öffnen x 
 	c) Waffe sofort einem anderen Jäger übergeben 
-253. 	Aus welchem Lauf löst sich bei einem auf Kugel gestellten Standarddrilling 
-	der Schuss, wenn der hintere Abzug betätigt wird? 
+253. 	Aus welchem Lauf löst sich bei einem auf Kugel gestellten Standarddrilling der Schuss, wenn der hintere Abzug betätigt wird? 
 	a) Aus dem unteren Lauf 
 	b) Aus dem linken Schrotlauf x 
 	c) Es löst sich kein Schuss 
@@ -986,9 +973,9 @@ Fach 3: Waffenrecht; Waffentechnik; Handhabung, Führung und Aufbewahrung von Ja
 	b) Nach Beziehen der Kanzel 
 	c) Unmittelbar vor der Schussabgabe x 
 296. 	Welche Funktion hat das Schloss einer Waffe? 
-	Die Läufe werden nach hinten verschlossen 
-	Die Mechanik des Schlosses löst den Schuss aus x 
-	Das Schloss sichert die Waffe 
+	a) Die Läufe werden nach hinten verschlossen 
+	b) Die Mechanik des Schlosses löst den Schuss aus x 
+	c) Das Schloss sichert die Waffe 
 297. 	Die Schlosse welcher Waffe lassen sich schonend nur mit Hilfe von 
 	Pufferpatronen entspannen? 
 	a) Bockbüchsflinte mit Handspannung 

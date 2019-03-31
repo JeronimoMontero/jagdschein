@@ -12,8 +12,7 @@ Fach 1: Tierarten; Wildbiologie; Wildhege; Biotophege; Wild- und Jagdschadensver
 	Die Hirsche ziehen Anfang September zum Kahlwild. Es bilden sich Brunftrudel bestehend aus 
 	Platzhirsch mit Kahlwild und Beihirschen. Vor allem der Platzhirsch beschlägt paarungsbereite Alt- 
 	und Schmaltiere, Brunftschrei ist zu hören. 
-5. 	Beschreiben Sie, wie es zum genetischen Austausch zwischen den verschiedenen 
-	Rotwildvorkommen kommt! 
+5. 	Beschreiben Sie, wie es zum genetischen Austausch zwischen den verschiedenen Rotwildvorkommen kommt! 
 	Vor und nach der Brunft verlassen Hirsche das Rudel. Dabei können Entfernungen von bis zu 
 	einhundert Kilometern zurückgelegt werden. 
 6. 	Benennen Sie die Körperteile beim Rotwild in der Weidmannssprache! 
@@ -680,8 +679,7 @@ Fach 1: Tierarten; Wildbiologie; Wildhege; Biotophege; Wild- und Jagdschadensver
 	a) Im Winter lebt das Rehwild in Notgemeinschaften mit mehreren Rehen (Wintersprung) x 
 	b) Im Winter lebt das Reh einzeln 
 	c) Im Winter lebt das Reh ausschließlich im Wald 
-211. 	Welche Merkmale spielen bei der Altersschätzung des Rot-, Dam- und 
-	Rehwildes am Unterkiefer eine Rolle? 
+211. 	Welche Merkmale spielen bei der Altersschätzung des Rot-, Dam- und Rehwildes am Unterkiefer eine Rolle? 
 	a) Die Anzahl der Zahnwurzeln. 
 	b) Die Beschaffenheit der Grandeln. 
 	c) Der Abschliff der Backenzähne x 

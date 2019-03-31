@@ -7,7 +7,7 @@ import pprint as pp
 
 
 def update_control(control, count, random_choice):
-    cat = random_choice[0] + 1
+    cat = str(random_choice[0] + 1)
     index = random_choice[1]
     if control.get(cat, None):
 
@@ -16,12 +16,12 @@ def update_control(control, count, random_choice):
             control[cat][index]['date'] = datetime.datetime.now().isoformat()
         else:
             control[cat][index] = dict()
-            control[cat][index]['counter'] = 0
+            control[cat][index]['counter'] = count
             control[cat][index]['date'] = datetime.datetime.now().isoformat()
 
     else:
         control[cat] = dict()
-        control[cat][index]= dict()
+        control[cat][index] = dict()
         control[cat][index]['counter'] = count
         control[cat][index]['date'] = datetime.datetime.now().isoformat()
 
@@ -36,6 +36,39 @@ def check_finishing(control):
         if close in ['j', 'n']:
             break
     return close
+
+
+def get_modes():
+    modes_list = [#'Fange mit neuen Fragen an',
+                  'Gelernt bei 3 richtigen Antworten',
+                  'Gelernt bei 1 richtigen Antwort',
+                  #'Erst unbekannte, dann nach datum und Anzahl Richtige'
+                  ]
+
+    print('Modus:')
+    for x, mod in enumerate(modes_list):
+        print(x + 1, '\t', mod)
+
+    while True:
+        modes = input('Wähle den Übungsmodus:')
+        if modes.isdigit():
+            if int(modes) in list(range(1, len(modes_list) + 1)):
+                break
+    return modes
+
+
+def check_status(question, control, success_count):
+
+    if control.get(str(question[0] + 1), {}).get(question[1]):
+        # success_count
+        if control.get(str(question[0] + 1), {})[question[1]]['counter'] >= success_count:
+            return True
+        # success_count constrain not met
+        else:
+            return False
+    # unknown question
+    else:
+        return False
 
 
 if __name__ == '__main__':
@@ -55,7 +88,7 @@ if __name__ == '__main__':
     # select subject or all
     subjects = list(data.keys())
     for n, s in enumerate(subjects):
-        print(n + 1, '\t\t', data[s]['info'])
+        print(n + 1, '\t', data[s]['info'])
     print('Enter\t', 'Alle Fächer')
     while True:
         subject_id = input('Wählen: ')
@@ -63,7 +96,7 @@ if __name__ == '__main__':
             break
         elif subject_id in str(list(range(1, n + 2))):
             break
-
+    modes = get_modes()
     questions = []
     if subject_id is '':
         # all subjects
@@ -80,9 +113,25 @@ if __name__ == '__main__':
 
     print('Anzahl Fragen:', len(questions))
 
-    print('\nZum Beenden bitte "e" eingeben!!!')
+    print('\nZum Beenden und/oder Speichern bitte "e" eingeben!!!')
     while True:
         random_choice = random.choice(questions)
+
+        if modes == '1':
+            success_count = 3
+        elif modes == '2':
+            success_count = 1
+
+        if check_status(random_choice, control, success_count):
+            print(control.get(str(random_choice[0] + 1), {}).get(random_choice[1])['counter'])
+
+            if control.get(str(random_choice[0] + 1), {}).get(random_choice[1])['counter'] == success_count:
+                questions.remove(random_choice)
+
+        if len(questions) is 0:
+            print('Alle Fragen gelernt')
+            break
+
         answer = ''
         if data[subjects[random_choice[0]]][random_choice[1]]['type'] == 'text':
             print('\nFrage {}-{}:\n{}\n'.format(random_choice[0]+1, random_choice[1], data[subjects[random_choice[0]]][random_choice[1]]['question']))
